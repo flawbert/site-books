@@ -1,0 +1,87 @@
+:root{
+    --primary-color: #189AB4;
+    --clean-primary-color: #D4F1F4;
+    --dark-primary-color: #05445E;    ;
+
+    --clean-secondary-color: #4793F5;
+    --dark-secondary-color: #0F53AB;
+
+    --neutral-clean-color: #F5F5F5;
+    --neutral-dark-color: #333344; 
+
+    --size: 16px;
+    --small-size: 8px;
+    --big-size: 32px;
+}
+body{
+    background-color: var(--clean-primary-color);
+}
+header{
+    background-color: var(--primary-color);
+    overflow: auto;
+    margin-bottom: var(--big-size);
+}
+h1{
+    font-size: 120px;
+    text-align: center;
+    margin-top: 0.6em;
+    font-family: Brush Script MT;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0.1em;
+    font-family: Brush Script MT;
+}
+aside{
+    background-color: var(--dark-primary-color);
+    float: right;
+    margin: var(--small-size);
+    border-radius: var(--small-size);
+    padding: var(--size);
+}
+#txt_livro{
+    width: 500px;
+    margin-right: var(--size);
+}
+main form{
+    margin-bottom: var(--big-size);
+}
+article{
+    width: 960px;
+    background-color: var(--clean-secondary-color);
+    border-radius: var(--small-size);
+    padding: var(--size);
+    margin: auto;
+    margin-bottom: var(--small-size);
+    display: flex;
+}
+article img{
+    width: 130px;
+    margin-right: var(--size);
+
+}
+.livro-dados{
+    width: 80%;
+}
+h3{
+    font-size: 24px;
+}
+.marcador{
+    position: relative;
+}
+.material-icons{
+    font-size: 38px;
+
+}
+.contador{
+    background-color: var(--dark-secondary-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 1.2em;
+    left: 1.2em;
+    padding: 0 2px;
+}
+*{
+    color: var(--neutral-clean-color);
+}
